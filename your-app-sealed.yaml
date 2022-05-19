@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: your-app
+  namespace: flux-system
+spec:
+  encryptedData:
+    your-data: AgCKOg3EiWvs7bzdL72gn5A8aKshcR4rmSCdJW5P8EIAcV21bwy1ZJw3D9V0hSdqT9ZnDW+D+hOmiv2wrZWL71AGtmDtlxM+QmCgyNAu1JLGmoXflardeQ/dwKPAXkm8k5LhaV/AKsBS5P6ByaBczePCJq4DAjdKeEEfBJ99k3HwYJcMUdKqLVyOpVKVEzjIMU24A7YIvp5Qzcayb5Xpxv0ajd4q9AaY6Hv3X+GUg/F+uP/Ck7n4fTBZ3Np3G3rIfN1f3Y8rWQH0bDYlkWPxrWz4GhC9nzTYqKERws53lUGnb6gx3hU3y/QCLoaSToovgOEl3znDc2pWEt0/M7qdigEgABPFCYeAxWwvPI6ADiNQ7hVyZIZdqZz4YEb54jZTQRFP+OcKjEX71Cp1VegAo14zpjP+hb0D6hAji3vOh0YSbfqX9yShrrmaVXyc/3EvJFtL8yV61x8GRbovl3yjjbGYBi9iZlRS2AcQChlqdJtxGPWovG7lxJ9ZKY0w0io5IO2UEeq8cqqN0YfNpSemFpf1V4lxFX6pSqBxt4T6F3FUirPeCK3XMF9z80aiaL3VIzo1P9+grBN8srdrg2KHp+80HQ01Qi041O17zEYUM+bnPZ0fUsZb22D++gCXpz/BTyB4RcqT+64veDzeKBctbuM5v34AVWBqrUiaqmNaor/x+52YTqRckyCpKw7APJkDEH6tCdvQApKkrIAckG1fdRRQB7fCWjoDdJO4kboPNxumTFmITkxw
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: your-app
+      namespace: flux-system
+
